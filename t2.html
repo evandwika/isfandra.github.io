@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portofolio Evan Dwika Isfandra</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #ffffff;
+    }
+
+    .jumbotron {
+      background: linear-gradient(to right,  #ffffff, #ffffff);
+      padding: 4rem 2rem;
+    }
+
+    .profil-img {
+      width: 180px;
+      border-radius: 1rem;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+
+    .profil-section {
+      background-color: #ffffffcf;
+      padding: 3rem 1rem;
+    }
+
+    .pengalaman-section {
+      background-color: #ffffff;
+      padding: 3rem 1rem;
+    }
+
+    .foto-proyek {
+      width: 100%;
+      border-radius: 8px;
+      margin-bottom: 1rem;
+    }
+  </style>
+</head>
+
+<body>
+  <section class="jumbotron text-center">
+    <img src="WhatsApp Image 2025-07-24 at 10.12.12.jpeg" alt="Evan Dwika Isfandra" width="200"
+      class="rounded-circle img-thumbnail" />
+    <h1 class="display-5 mt-3">Portofolio</h1>
+    <h2 class="fw-bold">Evan Dwika Isfandra</h2>
+  </section>
+
+  <section class="profil-section">
+    <div class="container">
+      <h3 class="text-center mb-4">Profil</h3>
+      <p class="text-center">Hai saya Evan,berasal dari SMK 5 dengan jurusan Rekayasa Perangkat Lunak atau bisa juga disingkat sebagai RPL. Alasansaya mengambil jurusan RPL karena saya ingin membuat game yang dapat dimainkan oleh banyak orang. Agar bisa mewujudkannya saya mencoba membuat game 2D simple.Hingga bisa membuat game yang canggih nantinya. Saya terus improvisasi diri saya, agar game yang saya buat bisa berdampak positif bagi banyak orang.</p>
+    </div>
+
+    <div class="row justify-content-center">
+      <div class="col-md-4 mb-3">
+        <div class="card project-tile">
+          <img
+            src="https://thumb.viva.id/vivabandung/665x374/2024/09/13/66e43d80574c4-tampilan-game-flappy-bird_bandung.jpg"
+            class="card-img-top" alt="Project 1" />
+          <div class="card-body">
+            <h5 class="card-title">Flappy Bird</h5>
+            <p class="card-text">game Flappy bird yang saya buat dengan python. Dan cara bermainnya yang simple, dengan
+              mengendalikan burung agar tidak menyentuh pipa hingga mendapatkan skor setinggi mungkin </p>
+            <a href="https://sandhikagalih.github.io/twice-tribute-page/" target="_blank" class="btn btn-primary">Detail
+              Project &raquo;</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-3">
+        <div class="card project-tile">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0tL0SsrIbvxZwT_bL6ox1vkdPgZ5mLDSTYA&s"
+            class="card-img-top" alt="Project 2" />
+          <div class="card-body">
+            <h5 class="card-title">Snake Game</h5>
+            <p class="card-text">game yang memiliki tujuan simple yaitu dengan memakan apel apel untuk mendapatkan point dan
+              membuat tubuh ular semakin panjang, membuat game menjadi lebih susah.</p>
+            <a href="https://sandhikagalih.github.io/twice-survey-form/" target="_blank" class="btn btn-primary">Detail
+              Project &raquo;</a>
+          </div>
+        </div>
+      </div>
+  </section>
+
+    <section id="contact">
+      <div class="container">
+        <div class="row text-center mb-3">
+          <div class="col">
+            <h2>Contact Me</h2>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-md-6">
+            <div class="alert alert-success alert-dismissible fade show d-none my-alert" role="alert">
+              <strong>Terimakasih!</strong> Pesan anda sudah kami terima.
+              <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+            </div>
+            <form name="evandwika">
+              <div class="mb-3">
+                <label for="name" class="form-label">Nama Lengkap</label>
+                <input type="text" class="form-control" id="nama" aria-describedby="name" name="nama" />
+              </div>
+              <div class="mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" class="form-control" id="email" aria-describedby="email" name="email" />
+              </div>
+              <div class="mb-3">
+                <label for="pesan" class="form-label">Pesan</label>
+                <textarea class="form-control" id="pesan" rows="3" name="pesan"></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary btn-kirim">Kirim</button>
+    
+              <button class="btn btn-primary btn-loading d-none" type="button" disabled>
+                <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
+                Loading...
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path fill="#0d6efd" fill-opacity="10"
+          d="M0,128L30,149.3C60,171,120,213,180,224C240,235,300,213,360,192C420,171,480,149,540,160C600,171,660,213,720,197.3C780,181,840,107,900,101.3C960,96,1020,160,1080,197.3C1140,235,1200,245,1260,234.7C1320,224,1380,192,1410,176L1440,160L1440,320L1410,320C1380,320,1320,320,1260,320C1200,320,1140,320,1080,320C1020,320,960,320,900,320C840,320,780,320,720,320C660,320,600,320,540,320C480,320,420,320,360,320C300,320,240,320,180,320C120,320,60,320,30,320L0,320Z">
+        </path>
+      </svg>
+    </section>
+  
+  <footer class="bg-dark text-white text-center py-3">
+    <p class="mb-0">&copy; 2025 Evan Dwika Isfandra</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+  
+  <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycby6nFArslhuvY3r0KJV38kNYbPZAGzKs48t473hs1W03L5s2rE4vBtNFS49RrqjlC5uJQ/exec';
+    const form = document.forms['evandwika'];
+    const btnKirim = document.querySelector('.btn-kirim');
+    const btnLoading = document.querySelector('.btn-loading');
+    const myAlert = document.querySelector('.my-alert');
+
+    form.addEventListener('submit', (e) => {
+      e.preventDefault();
+      // ketika tombol submit diklik
+      // tampilkan tombol loading, hilangkan tombol kirim
+      btnLoading.classList.toggle('d-none');
+      btnKirim.classList.toggle('d-none');
+      fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+        .then((response) => {
+          // tampilkan tombol kirim, hilangkan tombol loading
+          btnLoading.classList.toggle('d-none');
+          btnKirim.classList.toggle('d-none');
+          // tampilkan alert
+          myAlert.classList.toggle('d-none');
+          // reset formnya
+          form.reset();
+          console.log('Success!', response);
+        })
+        .catch((error) => console.error('Error!', error.message));
+    });
+  </script>
+  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+</body>
+
+</html>
